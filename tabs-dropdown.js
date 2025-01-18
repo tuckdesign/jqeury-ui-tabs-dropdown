@@ -1,9 +1,9 @@
 (function($) {
     var methods = {
-        init: function() {
+        init: function(options) {
             return this.each(function() {
                 var $tabsDropdown = $(this);
-                $tabsDropdown.tabs();
+                $tabsDropdown.tabs(options);
                 let $tablist = $tabsDropdown.find('ul[role=tablist]');
                 $tablist.addClass('tabs-dropdown-ul');
                 var $dropdown = $('<select></select>');
