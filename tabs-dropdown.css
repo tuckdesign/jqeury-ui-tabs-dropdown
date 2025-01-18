@@ -1,0 +1,11 @@
+@media (width <= 1024px) {
+    .tabs-dropdown-ul {
+        display: none !important;
+    }
+}
+
+@media (width > 1024px) {
+    .tabs-dropdown-dropdown {
+        display: none !important;
+    }
+}
