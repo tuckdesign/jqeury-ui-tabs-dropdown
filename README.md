@@ -3,5 +3,5 @@ Plugin for jQuery UI for responsive tabs widget. It will show dropdown instead o
 
 Requires jQuery UI Selectmenu Widget.
 
-Uses CSS @media to choose will regular tabs show or dropdow.
+Uses CSS @media to choose will regular tabs show or dropdown.
 
